@@ -7,6 +7,8 @@ and none of the production/line management.
 
 Runs on Android 10 (API 29) and newer.
 
+<img src="docs/call-screen.png" alt="The call screen: volume slider, speaker and microphone buttons, Push To Talk, the participant list and Leave Call" width="300">
+
 ## Using it
 
 1. In the web client, share the call (**Share** → keep *Restrict recipients to
