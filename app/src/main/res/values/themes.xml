@@ -1,0 +1,6 @@
+<resources>
+    <style name="Theme.OpenIntercom" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:colorAccent">@color/accent</item>
+    </style>
+</resources>

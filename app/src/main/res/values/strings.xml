@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Open Intercom</string>
+    <string name="call_channel_name">Active call</string>
+    <string name="call_notification_connecting">Connecting…</string>
+    <string name="call_notification_in_call">In call: %1$s</string>
+    <string name="call_notification_leave">Leave call</string>
+</resources>
