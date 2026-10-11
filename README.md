@@ -85,6 +85,10 @@ Android refuses to update to a build whose number is not higher.
 WebRTC comes from [`stream-webrtc-android`](https://github.com/GetStream/webrtc-android),
 a maintained build of Google's library.
 
+## License
+
+[MIT](LICENSE).
+
 ## Credits
 
 Icons and the connect/disconnect sounds are taken from
