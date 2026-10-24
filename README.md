@@ -5,6 +5,9 @@ A native Android client for joining calls on an
 It does what the web client's guest view does — sit on a line, listen, talk —
 and none of the production/line management.
 
+This is an independent project. It is not affiliated with, endorsed by, or
+supported by Eyevinn Technology.
+
 Runs on Android 10 (API 29) and newer.
 
 <img src="docs/call-screen.png" alt="The call screen: volume slider, speaker and microphone buttons, Push To Talk, the participant list and Leave Call" width="300">
