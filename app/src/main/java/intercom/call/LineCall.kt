@@ -1,4 +1,4 @@
-package net.familyross.intercom.call
+package intercom.call
 
 import android.os.SystemClock
 import kotlinx.coroutines.CancellationException
@@ -21,11 +21,11 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.suspendCancellableCoroutine
 import kotlinx.coroutines.withContext
 import kotlinx.coroutines.withTimeoutOrNull
-import net.familyross.intercom.data.CallRef
-import net.familyross.intercom.data.LineRole
-import net.familyross.intercom.net.ApiException
-import net.familyross.intercom.net.IntercomApi
-import net.familyross.intercom.net.Participant
+import intercom.data.CallRef
+import intercom.data.LineRole
+import intercom.net.ApiException
+import intercom.net.IntercomApi
+import intercom.net.Participant
 import org.json.JSONException
 import org.json.JSONObject
 import org.webrtc.AudioTrack

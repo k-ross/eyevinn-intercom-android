@@ -1,4 +1,4 @@
-package net.familyross.intercom
+package intercom
 
 import android.graphics.Color
 import android.media.AudioManager
@@ -7,8 +7,8 @@ import androidx.activity.ComponentActivity
 import androidx.activity.SystemBarStyle
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import net.familyross.intercom.ui.IntercomRoot
-import net.familyross.intercom.ui.IntercomTheme
+import intercom.ui.IntercomRoot
+import intercom.ui.IntercomTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

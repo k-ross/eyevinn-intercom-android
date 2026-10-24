@@ -1,8 +1,8 @@
-package net.familyross.intercom
+package intercom
 
 import android.app.Application
-import net.familyross.intercom.call.CallManager
-import net.familyross.intercom.data.SettingsStore
+import intercom.call.CallManager
+import intercom.data.SettingsStore
 
 class IntercomApp : Application() {
     lateinit var settings: SettingsStore

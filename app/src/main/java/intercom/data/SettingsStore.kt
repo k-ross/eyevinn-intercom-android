@@ -1,4 +1,4 @@
-package net.familyross.intercom.data
+package intercom.data
 
 import android.content.Context
 import android.security.keystore.KeyGenParameterSpec

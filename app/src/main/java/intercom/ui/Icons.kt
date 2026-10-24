@@ -1,4 +1,4 @@
-package net.familyross.intercom.ui
+package intercom.ui
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.SolidColor

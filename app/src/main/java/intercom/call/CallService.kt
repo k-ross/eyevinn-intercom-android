@@ -1,4 +1,4 @@
-package net.familyross.intercom.call
+package intercom.call
 
 import android.app.Notification
 import android.app.NotificationChannel
@@ -22,9 +22,9 @@ import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.launch
-import net.familyross.intercom.IntercomApp
-import net.familyross.intercom.MainActivity
-import net.familyross.intercom.R
+import intercom.IntercomApp
+import intercom.MainActivity
+import intercom.R
 
 /**
  * Keeps the process, microphone and network alive while calls are up and the
@@ -146,7 +146,7 @@ class CallService : Service() {
     companion object {
         private const val CHANNEL_ID = "call"
         private const val NOTIFICATION_ID = 1
-        private const val ACTION_LEAVE = "net.familyross.intercom.action.LEAVE"
+        private const val ACTION_LEAVE = "intercom.action.LEAVE"
 
         /** Call after [CallManager.join], while the app is in the foreground. */
         fun start(context: Context) {

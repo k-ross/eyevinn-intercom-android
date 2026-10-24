@@ -1,4 +1,4 @@
-package net.familyross.intercom.ui
+package intercom.ui
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -35,9 +35,9 @@ import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import net.familyross.intercom.data.AppSettings
-import net.familyross.intercom.data.CallUrl
-import net.familyross.intercom.data.CallUrlResult
+import intercom.data.AppSettings
+import intercom.data.CallUrl
+import intercom.data.CallUrlResult
 import okhttp3.HttpUrl.Companion.toHttpUrlOrNull
 
 private const val MAX_USERNAME_LENGTH = 40

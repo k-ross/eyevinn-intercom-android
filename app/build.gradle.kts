@@ -14,7 +14,7 @@ val keystoreProperties = Properties().apply {
 }
 
 android {
-    namespace = "net.familyross.intercom"
+    namespace = "intercom"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -22,7 +22,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "net.familyross.intercom"
+        applicationId = "io.github.k_ross.intercom"
         // Android 10, the release the Pixel 4 shipped with.
         minSdk = 29
         targetSdk = 36

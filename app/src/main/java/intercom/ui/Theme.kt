@@ -1,4 +1,4 @@
-package net.familyross.intercom.ui
+package intercom.ui
 
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.darkColorScheme

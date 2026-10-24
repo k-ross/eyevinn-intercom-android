@@ -1,4 +1,4 @@
-package net.familyross.intercom.net
+package intercom.net
 
 import kotlinx.coroutines.suspendCancellableCoroutine
 import kotlinx.coroutines.sync.Mutex

@@ -1,4 +1,4 @@
-package net.familyross.intercom.call
+package intercom.call
 
 /**
  * The switch that decides whether microphone audio leaves the device. It is

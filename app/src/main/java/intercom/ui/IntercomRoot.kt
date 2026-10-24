@@ -1,4 +1,4 @@
-package net.familyross.intercom.ui
+package intercom.ui
 
 import android.Manifest
 import android.content.Context
@@ -46,12 +46,12 @@ import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.LocalLifecycleOwner
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.withResumed
-import net.familyross.intercom.IntercomApp
-import net.familyross.intercom.call.CallService
-import net.familyross.intercom.call.LineCall
-import net.familyross.intercom.data.AppSettings
-import net.familyross.intercom.data.CallUrl
-import net.familyross.intercom.data.CallUrlResult
+import intercom.IntercomApp
+import intercom.call.CallService
+import intercom.call.LineCall
+import intercom.data.AppSettings
+import intercom.data.CallUrl
+import intercom.data.CallUrlResult
 
 @Composable
 fun IntercomRoot() {

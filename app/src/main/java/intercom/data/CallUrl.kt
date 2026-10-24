@@ -1,4 +1,4 @@
-package net.familyross.intercom.data
+package intercom.data
 
 import okhttp3.HttpUrl
 import okhttp3.HttpUrl.Companion.toHttpUrlOrNull

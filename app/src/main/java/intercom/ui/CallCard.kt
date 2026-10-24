@@ -1,4 +1,4 @@
-package net.familyross.intercom.ui
+package intercom.ui
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.animateColor
@@ -61,10 +61,10 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import net.familyross.intercom.call.CallState
-import net.familyross.intercom.call.ConnectionStatus
-import net.familyross.intercom.call.LineCall
-import net.familyross.intercom.net.Participant
+import intercom.call.CallState
+import intercom.call.ConnectionStatus
+import intercom.call.LineCall
+import intercom.net.Participant
 import kotlin.math.roundToInt
 
 private val CardShape = RoundedCornerShape(10.dp)

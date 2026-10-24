@@ -1,4 +1,4 @@
-package net.familyross.intercom.ui
+package intercom.ui
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border

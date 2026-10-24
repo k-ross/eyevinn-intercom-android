@@ -1,9 +1,9 @@
-package net.familyross.intercom.call
+package intercom.call
 
 import android.content.Context
 import android.media.AudioAttributes
 import android.media.SoundPool
-import net.familyross.intercom.R
+import intercom.R
 
 /** The web client's connect / disconnect cues. */
 class CallSounds(context: Context) {

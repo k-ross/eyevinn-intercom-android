@@ -1,4 +1,4 @@
-package net.familyross.intercom.call
+package intercom.call
 
 import android.content.Context
 import kotlinx.coroutines.CoroutineScope
@@ -7,10 +7,10 @@ import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
-import net.familyross.intercom.data.CallUrl
-import net.familyross.intercom.data.CallUrlResult
-import net.familyross.intercom.data.SettingsStore
-import net.familyross.intercom.net.IntercomApi
+import intercom.data.CallUrl
+import intercom.data.CallUrlResult
+import intercom.data.SettingsStore
+import intercom.net.IntercomApi
 
 /** Owns the calls that are currently joined. Lives for the whole process. */
 class CallManager(

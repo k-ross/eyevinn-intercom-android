@@ -1,4 +1,4 @@
-package net.familyross.intercom.call
+package intercom.call
 
 import android.content.Context
 import org.webrtc.AudioSource
