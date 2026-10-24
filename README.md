@@ -1,7 +1,7 @@
 # Open Intercom for Android
 
 A native Android client for joining calls on an
-[Eyevinn Open Intercom](https://github.com/Eyevinn/intercom-frontend) server.
+[Eyevinn Open Intercom](https://github.com/Eyevinn/intercom-manager) server.
 It does what the web client's guest view does — sit on a line, listen, talk —
 and none of the production/line management.
 
